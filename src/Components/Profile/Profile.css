@@ -1,0 +1,117 @@
+.profile-section {
+    margin: 200px 0px;
+    height: fit-content;
+}
+
+.profile-title {
+    color: #027FCA;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.profile-box {
+    background: linear-gradient(to right, rgba(164, 0, 0, 0.4), rgba(1, 65, 103, 0.4));
+    border: #027FCA solid .4px !important;
+    padding: 20px;
+    min-height: 200px;
+}
+
+.profile-box-title {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    max-width: 80%;
+}
+
+.company-name {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(2, 127, 202, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-top: 10px;
+}
+
+.profile {
+    background-image: url('path-to-your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (max-width: 768px) {
+    .profile-title {
+        font-size: 38px;
+        font-weight: 600;
+    }
+
+    .profile-section .card-body {
+        padding: 0;
+    }
+
+    .profile-box-title {
+        margin: 0;
+        font-weight: 600;
+        font-size: 22px; 
+    }
+
+    .profile-box {
+        min-height: auto; 
+        padding: 15px;
+    }
+
+    .company-name {
+        font-size: 20px; 
+    }
+
+    .profile-image {
+        max-width: 100%; 
+    }
+
+    .profile-section {
+        margin: 100px 0px; 
+    }
+
+    .profile-section .card-body {
+        padding: 10px; 
+    }
+
+    .profile-box-title {
+        font-size: 20px; 
+    }
+}
+
+@media (max-width: 576px) {
+    /* .profile-section {
+        margin: 300px 0px;
+     
+    } */
+    .profile-title {
+        font-size: 32px; 
+    }
+
+    .profile-box {
+        padding: 10px; 
+    }
+
+    .company-name {
+        font-size: 18px; 
+    }
+
+    .profile-section {
+        margin: 50px 0px; 
+    }
+
+    .profile-box-title {
+        font-size: 18px; 
+    }
+    .visionCard, .valuesCard , .missionCard{
+        margin-bottom: 20px;
+    }
+}

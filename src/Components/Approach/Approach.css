@@ -1,0 +1,125 @@
+.approach {
+    height: fit-content;
+    margin-top: 100px;
+
+}
+
+.approach-container {
+    background: url(../../assets/images/Group_426-removebg-preview.png) no-repeat center;
+    height: 570px;
+    background-size: 80%;
+    width: 85%;
+}
+
+
+.bgDiamond {
+    width: 160px;
+    height: 160px;
+    background: #027FCA;
+    position: relative;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 17px;
+}
+
+.diamond {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom right, rgba(255, 0, 0), rgba(2, 127, 202));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+}
+
+.diamond-content {
+    transform: rotate(-45deg);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* white-space: nowrap; */
+    font-size: 18px;
+}
+
+.approachList {
+    font-size: 24px;
+    font-weight: 300;
+    width: 45%;
+}
+
+.approach-item1, .approach-item3 {
+    width: 63%;
+}
+
+.approach-item2 {
+    width: 75%;
+}
+
+@media (max-width:768px) {
+    .approachList {
+        font-size: 18px;
+        font-weight: 300;
+        width: 55%;
+    }
+
+    .approach-container {
+        height: 390px;
+        background-size: 100%;
+    }
+
+    .approach-item1, .approach-item3 {
+        width: 78%;
+    }
+
+    .approach-item2 {
+        width: 100%;
+    }
+
+    .bgDiamond {
+        width: 100px;
+        height: 100px;
+        border-radius: 65px 15px;
+    }
+
+    .diamond {
+        width: 90px;
+        height: 90px;
+        border-radius: 15px;
+
+    }
+
+    .diamond-content {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .approachList {
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .approach-container {
+        height: 256px;
+        background-size: 150%;
+    }
+
+    .bgDiamond {
+        width: 70px;
+        height: 70px;
+        border-radius: 50px 7px;
+    }
+
+    .diamond {
+        width: 65px;
+        height: 65px;
+        border-radius: 7px;
+    }
+
+    .diamond-content {
+        font-size: 8px;
+    }
+  
+}

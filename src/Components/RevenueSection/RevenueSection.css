@@ -1,0 +1,88 @@
+.revenue-section {
+    height: fit-content;
+    margin: 200px 0px;
+}
+
+.revenue-section-header {
+    margin-bottom: 100px;
+}
+
+.revenue-section-header div p a {
+    color: #027fca;
+    font-weight: 700;
+}
+
+.revenue-section-container {
+    background: linear-gradient(86.25deg, #53040B -5.42%, #0088D7 127.82%);
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+}
+
+.revenue-section-container1 {
+    background: rgba(2, 127, 202, 1);
+    width: 70%;
+    border-radius: 50px;
+}
+
+
+.revenue-section-headerDiv {
+    width: 90%;
+    margin: auto;
+}
+
+.revenue-section-headerDiv p {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.border-div {
+    border-left: 1px solid #0088D7;
+}
+
+@media (max-width: 768px) {
+    .revenue-section {
+        margin: 100px 0px;
+    }
+
+    .revenue-section-headerDiv p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .revenue-section-container1 {
+        width: 99%;
+    }
+
+    .revenue-section-container {
+        width: 99%;
+    }
+
+    .revenue-section-header {
+        margin-bottom: 50px;
+    }
+
+
+    .revenue-section-headerDiv p {
+        font-size: 18px;
+    }
+
+    .revenue-section h3 {
+        font-size: 24px;
+    }
+
+    .revenue-section p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 425px) {
+    .border-div {
+        border-left: none;
+        border-top: 1px solid #0088D7;
+    }
+
+
+}
